@@ -1,0 +1,72 @@
+If you want to hide a sprite or bone..
+select the sprite or bone and "Right Click" to access the "Show" or "Hide" options.
+
+Alt + (Drag) Left Mouse Button = Create & Transform Bones (or spawning points or collision rectangles)
+
+(Hold) B (While Bone is Selected) = Select Toggle Bone Children
+
+(Hold) M + (Drag) Left Mouse Button = Move 0,0 coordinate (frame offset) of entire animation.
+
+Left click an already selected Bone= View Resize Controls for Bones
+
+(Drag) Middle Mouse Button <> (Hold) Spacebar + (Drag) Left Mouse Button = Pan View in Canvas
+
+(Hold) Ctrl + Mouse Wheel (While in Work Area) = Quick Zoom in Canvas
+
+(Hold) Ctrl + Mouse Wheel (While in Timeline\Hierarchy\Z-order\File Palette\Object Palette) = Zoom
+ 
+Ctrl + Space (In) >>&<< Ctrl + Alt + Space (Out) = Zoom (for when using a Stylus, Trackball, or Mouse w/o Wheel)
+
+Ctrl + Alt +Shift+ Space = Restore Zoom to 100%
+
+Ctrl + Up\Down (While a Single Sprite Selected) = Move Selected Sprite Up\Down One Position in the Z-order
+
+Ctrl + Left\Right (While a Single Sprite Selected) = Move Selected Sprite to the Bottom\Top of the Z-order
+
+Control + C = Copy selected item or currently selected data
+
+Control + Shift + C = Copy an entire frame (Even if tweened between keyframes)
+
+Control + Shift + V = Paste to all frames (If objects are parented on the copied frame, they will paste to the Parents on the Other Frames)
+
+Control + D = coppy selected object and paste it to all key frames.
+
+Shift + Delete key = Delete selected objects from all frames
+
+(Hold) Ctrl (While you Drag, Rotate, Resize, or Apply IK to an Object or Group of Objects) = Clone (Clones will Retain Relative Parenting & Z-order to one another & will be Parented to the Original Parents if they were not Cloned)
+
+Z = Select all Descendent Sprites and Bones of the Current Selection (i.e. Select Shoulder Bone, Tap Z, it will Select the Upper-arm Bone, and Forearm Bone, and All Sprites for All 3 Bones)
+
+Shift + Z = Select all Ancestor Sprites and Bones of the Current Selection (i.e. Select hand Bone, Press Shift+Z, it will Select the Forearm Bone,  Upper-arm Bone, and All Sprites for All 3 Bones)
+
+Arrow Keys (While Object is Selected) = Nudge Object 1 Pixel in Pressed Direction
+
+1 = Go to Previous Keyframe
+
+Shift + 1 = Go to the previous keyframe which contains a key for the currently selected object.
+
+2 = Go to Next Keyframe
+
+Shift + 2 = Go to the next keyframe which contains a key for the currently selected object.
+
+Control + 1 = go back in the time line by 1 milisecond (If timeline snapping is NOT active)
+
+Control + 2= go forward in the time line by 1 milisecond (If timeline snapping is NOT active)
+
+Control + 1 = go back in the time line to the previous snap interval (If timeline snapping is active)
+
+Control + 2= go forward in the time to the next snap interval (If timeline snapping is active)
+
+3 = Rewind to Start
+
+4 = Play
+
+5 = Fast Forward to End
+
+7 = Toggle Show Bones
+
+8 = Toggle Lock Bones
+
+9 = Toggle Show Sprites
+
+0 = Toggle Lock Sprites
